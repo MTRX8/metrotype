@@ -1,0 +1,27 @@
+name: metrotype
+description: "A modern keyboard inspired by Windows Phone."
+
+publish_to: "none"
+homepage: https://softyes.com.br
+repository: https://github.com/MTRX8/metrotype
+issue_tracker: https://github.com/MTRX8/metrotype/issues
+
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+  flutter: ^3.47.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  very_good_analysis: ^11.0.0
+
+flutter:
+  uses-material-design: true
