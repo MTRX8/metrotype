@@ -1,6 +1,16 @@
+<img
+  width="128"
+  height="128"
+  alt="project logo"
+  src="https://raw.githubusercontent.com/MTRX8/metrotype/main/readme/logo.png"
+/>
+
 # MetroType
 
-A modern keyboard inspired by Windows Phone.
+[![License](https://img.shields.io/github/license/MTRX8/metrotype?style=plastic&color=purple)](https://raw.githubusercontent.com/MTRX8/metrotype/main/LICENSE)
+![Contributing](https://img.shields.io/badge/contributing-Closed-purple?style=plastic)
+
+A modern keyboard app inspired by Windows Phone.
 
 ## 🧰 Features
 
