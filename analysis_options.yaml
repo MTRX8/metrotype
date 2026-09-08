@@ -13,3 +13,6 @@ analyzer:
 
   errors:
     one_member_abstracts: ignore
+
+formatter:
+  trailing_commas: preserve

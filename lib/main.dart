@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MainApp());
-}
+void main() => runApp(const MainApp());
 
 ///
 class MainApp extends StatelessWidget {
@@ -11,8 +9,14 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+    return WidgetsApp(
+      title: 'MetroType',
+      debugShowCheckedModeBanner: false,
+      color: const Color(0xFF000000),
+      home: const Center(child: Text('MetroType')),
+      pageRouteBuilder: <T>(settings, builder) => PageRouteBuilder<T>(
+        pageBuilder: (context, _, _) => builder(context),
+      ),
     );
   }
 }
