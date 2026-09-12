@@ -1,33 +1,35 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application
-        android:label="MetroType"
-        android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:name=".Application"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MetroType">
+
         <activity
             android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
+            android:hardwareAccelerated="true"
             android:launchMode="singleTop"
             android:taskAffinity=""
             android:theme="@style/LaunchTheme"
-            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-            android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
-          
+
             <meta-data
-              android:name="io.flutter.embedding.android.NormalTheme"
-              android:resource="@style/NormalTheme"/>
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
 
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <service
+            android:name=".Service"
+            android:exported="true"
             android:label="MetroType"
-            android:name=".MetroTypeService"
-            android:permission="android.permission.BIND_INPUT_METHOD"
-            android:exported="true">
+            android:permission="android.permission.BIND_INPUT_METHOD">
 
             <intent-filter>
                 <action android:name="android.view.InputMethod" />
@@ -36,18 +38,21 @@
             <meta-data
                 android:name="android.view.im"
                 android:resource="@xml/method" />
-
         </service>
-       
+
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+        <meta-data
+            android:name="io.flutter.embedding.android.EnableContentSizing"
+            android:value="true" />
     </application>
 
     <queries>
         <intent>
-            <action android:name="android.intent.action.PROCESS_TEXT"/>
-            <data android:mimeType="text/plain"/>
+            <action android:name="android.intent.action.PROCESS_TEXT" />
+            <data android:mimeType="text/plain" />
         </intent>
     </queries>
 </manifest>

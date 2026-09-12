@@ -1,12 +1,18 @@
 {
   "cSpell.words": [
     "Ascii",
+    "buildlog",
+    "inputmethodservice",
     "jetbrains",
     "kotlin",
     "linux",
     "metrotype",
     "pubspec",
-    "softyes"
+    "softyes",
+    "swiftpm",
+    "Symbolication",
+    "soloud"
   ],
-  "dart.flutterSdkPath": ".fvm/versions/3.47.2"
+  "dart.flutterSdkPath": ".fvm/versions/3.47.4",
+  "java.compile.nullAnalysis.mode": "automatic"
 }
