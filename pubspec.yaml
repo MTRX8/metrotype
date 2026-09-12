@@ -9,8 +9,8 @@ issue_tracker: https://github.com/MTRX8/metrotype/issues
 version: 0.1.0+1
 
 environment:
-  sdk: ^3.13.2
-  flutter: ^3.47.2
+  sdk: ^3.13.3
+  flutter: ^3.47.4
 
 dependencies:
   flutter:

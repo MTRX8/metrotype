@@ -73,6 +73,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.19.1"
+  cupertino_ui:
+    dependency: transitive
+    description:
+      name: cupertino_ui
+      sha256: e9dfe7fac704028f8928cbe4028a0be5e8a709498e8daf8247de99e99a32aef3
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
+  dynamic_color:
+    dependency: transitive
+    description:
+      name: dynamic_color
+      sha256: "869b3bce0100eb519768ecd71c0111f0b5ea679f5f62e1f59c49d80067e730c5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
   fake_async:
     dependency: transitive
     description:
@@ -110,6 +126,11 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.0"
+  flutter_localizations:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -123,6 +144,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.9.2"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "1ca20c894b1717686a2319b8548763d812bc0aabdac580420a44c5178c57a867"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.20.3"
   json_annotation:
     dependency: transitive
     description:
@@ -179,6 +208,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.13.0"
+  material_ui:
+    dependency: transitive
+    description:
+      name: material_ui
+      sha256: fbfb53cab6c4629438feeade5f3d305f72944bc9d9f25786b19106d32b80ec45
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
   meta:
     dependency: transitive
     description:
@@ -187,6 +224,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.19.0"
+  modern_ui:
+    dependency: "direct overridden"
+    description:
+      path: "../modern_ui"
+      relative: true
+    source: path
+    version: "0.1.0"
   path:
     dependency: transitive
     description:
@@ -224,6 +268,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.12.2"
+  staggered_grid_view:
+    dependency: transitive
+    description:
+      name: staggered_grid_view
+      sha256: f8f5d5a6ca4bb07778fcbe556969ba79a16893fd97813260045a9c76a5ab9136
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
   stream_channel:
     dependency: transitive
     description:
@@ -289,5 +341,5 @@ packages:
     source: hosted
     version: "3.1.4"
 sdks:
-  dart: ">=3.13.2 <4.0.0"
-  flutter: ">=3.47.2 <4.0.0"
+  dart: ">=3.13.3 <4.0.0"
+  flutter: ">=3.47.4 <4.0.0"
