@@ -4,14 +4,17 @@
     "buildlog",
     "inputmethodservice",
     "jetbrains",
+    "josereia",
     "kotlin",
     "linux",
     "metrotype",
     "pubspec",
     "softyes",
+    "softyesti",
+    "soloud",
+    "sonification",
     "swiftpm",
-    "Symbolication",
-    "soloud"
+    "Symbolication"
   ],
   "dart.flutterSdkPath": ".fvm/versions/3.47.4",
   "java.compile.nullAnalysis.mode": "automatic"
